@@ -1,0 +1,28 @@
+Master Data Structures and algorithms using c++
+
+Assignment Day 1
+
+1. Find the time complexity for the following code snippet: a = 1; b = 1;
+ while(b <= n)
+ { a = a + 1;
+ b = b + a;
+ cout<<"Hi";
+ }
+Ans:a  b
+    1  1+2
+    2   3+3
+    3   6+4
+    4    10
+
+1+2+3+......+k=n
+k(k+1)/2=n
+k^2=n
+k=  √n
+
+T(n)=  O(√n)
+
+ 2.Find the time complexity for the following code snippet: 
+for(i = n; i >= 1; i = i/3)->n
+ cout<<"Hi";
+Ans:
+     T(n)=O(n)
